@@ -41,7 +41,7 @@ a:visited {
 /* SIDEBAR */
 .sidebar {
   /* flex-basis: 50rem; */
-  width: 40%;
+  width: 50%;
   background-color: var(--color-dark--1);
   padding: 3rem 5rem 4rem 5rem;
   display: flex;
@@ -117,7 +117,6 @@ a:visited {
   border-radius: 5px;
   padding: 1.5rem 2.75rem;
   margin-bottom: 1.75rem;
-
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0.5rem 2.5rem;
