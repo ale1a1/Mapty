@@ -18,8 +18,7 @@ class App {
   constructor() {
     this._getPosition();
     form.addEventListener('submit', this._newWorkout.bind(this));
-
-    inputType.addEventListener('change', this._toggleElevationField());
+    inputType.addEventListener('change', this._toggleElevationField);
   }
 
   _getPosition() {
@@ -58,6 +57,7 @@ class App {
   _toggleElevationField() {
     inputElevation.closest('.form__row').classList.toggle('form__row--hidden');
     inputCadence.closest('.form__row').classList.toggle('form__row--hidden');
+    console.log('changing');
   }
 
   _newWorkout(e) {
